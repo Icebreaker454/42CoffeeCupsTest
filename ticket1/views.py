@@ -4,7 +4,8 @@
 """
 
 from django.views.generic import TemplateView
-from models import Person
+
+from ticket1.models import Person
 
 
 class IndexView(TemplateView):

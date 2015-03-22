@@ -16,7 +16,7 @@ from django.db import migrations
 from django.core import serializers
 from django.contrib.auth.models import User
 
-FIXTURE_DIRNAME = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'fixtures'))
+FIXTURE_DIRNAME = os.path.abspath(os.path.join(os.path.dirname(__file__), '../', 'fixtures'))
 FIXTURE_FILENAME = 'my_data.json'
 
 

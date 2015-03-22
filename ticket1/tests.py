@@ -6,11 +6,10 @@
 from django.test import LiveServerTestCase
 from django.core.urlresolvers import reverse
 from django.contrib.auth.models import User
-
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 
-from models import Person
+from ticket1.models import Person
 
 
 class Ticket1Test(LiveServerTestCase):
