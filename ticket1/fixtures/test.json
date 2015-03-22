@@ -1,0 +1,35 @@
+ [
+   {
+     "model": "ticket1.person",
+     "pk": 1,
+     "fields":
+     {
+       "first_name": "John",
+       "last_name": "Smith",
+       "birth_date": "1990-07-12",
+       "bio": "FBI agent",
+       "contacts_email": "jsmith@gmail.com",
+       "contacts_jabber_id": "jsmith@jabber.me",
+       "contacts_skype_id": "jsmith_007",
+       "contacts_other": "Phone: +39912034"
+     }
+   },
+   {
+     "fields": {
+       "username": "icebreaker",
+       "first_name": "",
+       "last_name": "",
+       "is_active": true,
+       "is_superuser": true,
+       "is_staff": true,
+       "last_login": "2015-03-22T09:10:34.959Z",
+       "groups": [],
+       "user_permissions": [],
+       "password": "pbkdf2_sha256$12000$ck0bwsYYeGdo$JD4GfdepPRXGDGA+JeyHoDiTK4e/M7/940+RjumWjrs=",
+       "email": "pavlopukach@gmail.com",
+       "date_joined": "2015-03-22T09:10:30.631Z"
+     },
+    "model": "auth.user",
+    "pk": 1
+   }
+ ]

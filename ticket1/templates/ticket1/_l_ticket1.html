@@ -1,0 +1,13 @@
+{% extends 'ticket1/__base.html' %}
+{% block layout %}
+    <div class="row" id="content">
+      <div class="col-xs-6" id="info-column">
+        {% block info %}
+        {% endblock %}
+      </div>
+      <div class="col-xs-6" id="contacts-column">
+        {% block contacts %}
+        {% endblock %}
+      </div>
+    </div>
+{% endblock %}

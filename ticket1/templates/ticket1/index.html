@@ -1,0 +1,24 @@
+{% extends 'ticket1/_l_ticket1.html' %}
+
+{% block info %}
+  <h2 class="bg-primary">Personal information</h2>
+  <h4>First name:</h4>
+  <p>{{ person.first_name }}</p>
+  <h4>Last name:</h4>
+  <p>{{ person.last_name }}</p>
+  <h4>Birth date:</h4>
+  <p>{{ person.birth_date }}</p>
+  <h4>Bio:</h4>
+  <p>{{ person.bio }}</p>
+{% endblock %}
+{% block contacts %}
+  <h2 class="bg-success">Contacts</h2>
+  <h4>Email:</h4>
+  <p>{{ person.contacts_email }}</p>
+  <h4>Jabber JID:</h4>
+  <p>{{ person.contacts_jabber_id }}</p>
+  <h4>Skype:</h4>
+  <p>{{ person.contacts_skype_id }}</p>
+  <h4>Other:</h4>
+  <p>{{ person.contacts_other }}</p>
+{% endblock %}
