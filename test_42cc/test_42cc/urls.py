@@ -1,10 +1,10 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
 
-urlpatterns = patterns('',
-    # Examples:
-    # url(r'^$', 'test_42cc.views.home', name='home'),
-    # url(r'^blog/', include('blog.urls')),
+from ticket1.views import IndexView
 
+urlpatterns = patterns(
+    '',
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^$', IndexView.as_view(), name='home')
 )
