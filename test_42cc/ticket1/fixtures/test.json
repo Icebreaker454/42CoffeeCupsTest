@@ -1,0 +1,18 @@
+ [
+   {
+     "model": "ticket1.person",
+     "pk": 1,
+     "fields":
+     {
+       "first_name": "John",
+       "last_name": "Smith",
+       "birth_date": "1990-07-12",
+       "bio": "FBI agent",
+       "contacts_email": "jsmith@gmail.com",
+       "contacts_jabber_id": "jsmith@jabber.me",
+       "contacts_skype_id": "jsmith_007",
+       "contacts_other": "Phone: +39912034"
+     }
+   }
+
+ ]

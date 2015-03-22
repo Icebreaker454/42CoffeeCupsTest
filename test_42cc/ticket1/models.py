@@ -8,6 +8,7 @@ from django.db import models
 
 class Person(models.Model):
     """ The Person model itself """
+
     first_name = models.CharField(
         max_length=128,
         blank=False,
