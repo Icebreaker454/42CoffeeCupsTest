@@ -1,0 +1,20 @@
+[
+{
+    "fields": {
+        "username": "icebreaker",
+        "first_name": "",
+        "last_name": "",
+        "is_active": true,
+        "is_superuser": true,
+        "is_staff": true,
+        "last_login": "2015-03-22T09:10:34.959Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$12000$ck0bwsYYeGdo$JD4GfdepPRXGDGA+JeyHoDiTK4e/M7/940+RjumWjrs=",
+        "email": "pavlopukach@gmail.com",
+        "date_joined": "2015-03-22T09:10:30.631Z"
+    },
+    "model": "auth.user",
+    "pk": 1
+}
+]
