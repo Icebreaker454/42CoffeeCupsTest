@@ -4,7 +4,7 @@
 """
 
 from django.test import TestCase
-from django.core.urlresolvers import reverse
+from django.core.urlresolvers import reverse_lazy
 from django.contrib.auth.models import User
 
 from ticket1.models import Person
@@ -25,7 +25,7 @@ class Ticket1Test(TestCase):
 
     def test_page_info(self):
         """ Test whether the page displays data """
-        response = self.client.get(reverse('home'))
+        response = self.client.get(reverse_lazy('home'))
 
         self.assertIn('42 Coffee Cups Test Assignment', response.content)
         self.assertIn('John', response.content)
