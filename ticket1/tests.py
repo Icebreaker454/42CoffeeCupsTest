@@ -38,8 +38,8 @@ class Ticket1Test(TestCase):
         self.assertIn('Phone: +39912034', response.content)
 
 
-class Ticket2Test(TestCase):
-    """ The testing case for ticket 2 """
+class Ticket3Test(TestCase):
+    """ The testing case for ticket 3 """
     def test_requests_page_presence(self):
         response = self.client.get('/requests')
         self.assertEqual(response.status_code, 200)
